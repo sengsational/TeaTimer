@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="tea_three_minutes"
+        android:enabled="true"
+        android:icon="@drawable/ic_tea_cup"
+        android:shortcutShortLabel="@string/shortcut_three"
+        android:shortcutLongLabel="@string/shortcut_three_long">
+        <intent
+            android:action="com.sengsational.teatimer.START_THREE"
+            android:targetPackage="com.sengsational.teatimer"
+            android:targetClass="com.sengsational.teatimer.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="tea_five_minutes"
+        android:enabled="true"
+        android:icon="@drawable/ic_tea_cup"
+        android:shortcutShortLabel="@string/shortcut_five"
+        android:shortcutLongLabel="@string/shortcut_five_long">
+        <intent
+            android:action="com.sengsational.teatimer.START_FIVE"
+            android:targetPackage="com.sengsational.teatimer"
+            android:targetClass="com.sengsational.teatimer.MainActivity" />
+    </shortcut>
+</shortcuts>

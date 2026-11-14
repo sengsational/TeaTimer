@@ -1,0 +1,19 @@
+<resources>
+    <style name="Base.Theme.TeaTimer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tea_primary</item>
+        <item name="colorPrimaryVariant">@color/tea_primary</item>
+        <item name="colorOnPrimary">@color/tea_on_primary</item>
+        <item name="colorSecondary">@color/tea_primary</item>
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+    <style name="Theme.TeaTimer" parent="Base.Theme.TeaTimer" />
+    <style name="Theme.TeaTimer.Launcher" parent="Theme.TeaTimer">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Tea Timer</string>
+    <string name="introduction">A little time for a good cup of tea.</string>
+    <string name="start_timer">Start 3-minute timer</string>
+    <string name="launcher_hint">Long-press the app icon for 3 or 5 minutes.\nSwipe away the notification to cancel.</string>
+    <string name="shortcut_three">3 minutes</string>
+    <string name="shortcut_five">5 minutes</string>
+    <string name="shortcut_three_long">Start a 3-minute tea timer</string>
+    <string name="shortcut_five_long">Start a 5-minute tea timer</string>
+    <string name="running_channel">Timer running</string>
+    <string name="running_channel_description">A silent, dismissible notification with a tea-cup status bar icon while your tea is brewing.</string>
+    <string name="bell_channel">Tea bell</string>
+    <string name="bell_channel_description">A brief sound when your tea is ready. Allowed during priority Do Not Disturb.</string>
+    <string name="timer_running">Tea Timer is running</string>
+    <string name="timer_running_description">Your %1$d-minute tea timer is running. Swipe away to cancel.</string>
+    <string name="tea_ready">Your tea is ready</string>
+    <string name="cancel">Cancel</string>
+    <string name="continue_label">Continue</string>
+    <string name="notification_access_title">Allow timer notifications</string>
+    <string name="notification_access_message">Tea Timer needs notifications to show that a timer is running and let you cancel it by swiping it away.</string>
+    <string name="notification_denied_message">Notifications are off. Enable notifications for Tea Timer in Android settings, then tap Start again.</string>
+    <string name="exact_alarm_title">Allow precise timers</string>
+    <string name="exact_alarm_message">Allow alarms and reminders for Tea Timer so the bell can sound on time while the screen is off.</string>
+    <string name="dnd_title">Allow the tea bell during Do Not Disturb</string>
+    <string name="dnd_message">On the next screen, select Tea Timer and allow Do Not Disturb access. This permits the tea bell during priority Do Not Disturb.</string>
+    <string name="access_not_granted">Access was not granted. Tap Start to try again.</string>
+    <string name="channel_title">Enable timer notifications and sound</string>
+    <string name="running_channel_message">Set Timer running notifications to Default (or Alerting), with Sound set to None, to show the tea-cup icon in the status bar.</string>
+    <string name="bell_channel_message">Enable the Tea bell channel, choose a sound, and allow it to override Do Not Disturb.</string>
+    <string name="total_silence_title">Total silence is active</string>
+    <string name="total_silence_message">Android blocks even alarm sounds in Total silence. Allow alarms or priority interruptions in Android sound settings, then start your timer.</string>
+    <string name="start_failed">The timer could not start. Check notification and alarm access, then try again.</string>
+    <string name="settings_unavailable">This Android settings screen is unavailable on this device.</string>
+</resources>
